@@ -1,0 +1,11 @@
+Flask==2.3.2
+Flask-SQLAlchemy==3.0.3
+Flask-Migrate==4.0.4
+Flask-JWT-Extended==4.4.4
+Flask-Mail==0.9.1
+Flask-Cors==3.2.1
+python-dotenv==1.0.0
+Flask-Login==0.6.2
+marshmallow==3.19.0
+psycopg2-binary==2.9.6  # Use this if you're working with PostgreSQL, otherwise skip
+gunicorn==20.2.0  # For production deployment with WSGI
